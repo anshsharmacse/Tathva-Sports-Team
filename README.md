@@ -1,5 +1,6 @@
 # Tathva Tech Team Submission
 # Sports Team Front-End Application
+# Deployed Project - https://tathva-sports-team.vercel.app/
 
 ## Overview
 This project is a single-page front-end web application for a sports team of your choice. The application is built using HTML, CSS, and JavaScript (Vanilla or a framework like React). It features a responsive user interface that adapts to both mobile and desktop screen sizes. Additionally, it utilizes Web APIs to connect to a mock backend or public API for fetching scores or news.
@@ -8,6 +9,7 @@ This project is a single-page front-end web application for a sports team of you
 - Responsive design for both mobile and desktop screens
 - User interface for displaying sports team information
 - Integration with Web APIs for fetching scores or news
+## Users Can Save List as well as Download the desired Team-List
 
 ## Technologies Used
 - HTML
