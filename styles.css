@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    height: 60px;
+    background-image: url('https://images6.alphacoders.com/134/1348430.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+nav img.logo {
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav h1 {
+    margin: 0;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav h4 {
+    margin: 0;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+main {
+    padding: 20px;
+    background-color: #444;
+    color: #ffffff;
+    background-image: url('https://i.gifer.com/GBVv.gif');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #ede4e4;
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #8f6363;
+    color: #ffffff;
+    border: 10px;
+    border-radius: 8px;
+    border-end-start-radius: 4px;
+    border-collapse: separate;
+}
+
+button:hover {
+    background-color: #7f8a46;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f6ecec;
+}
+
+td {
+    font-style: oblique;
+    font-weight: bolder;
+    font-display: white;
+    font-size: xx-large;
+    color: #fcf806;
+}
+
+th {
+    background-color: #010101;
+    color: #eee5e5;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #55944c;
+}
+
+.news-section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #444;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('https://img.goodfon.com/wallpaper/big/0/23/cristiano-ronaldo-football-club-legend-real-madrid-cf-cr7-pl.webp');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.news-section h2 {
+    margin: 0 0 20px 0;
+    font-size: 26px;
+    color: #161616;
+    background-color: #e7eb0b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.news-article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #444;
+    border: 1px solid #666;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    color: #ffffff;
+}
+
+.news-article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-article h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.news-article a {
+    color: #007BFF;
+    text-decoration: mediumaquamarine;
+}
+
+.news-article a:hover {
+    text-decoration: underline;
+}
+
+.news-article p {
+    margin: 0;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    input, button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
