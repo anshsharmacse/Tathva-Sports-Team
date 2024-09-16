@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Team Organizer by Ansh Sharma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Sports Team Organizer</h1>
+        <h4>Developed by - ANSH SHARMA</h4>
+    </nav>
+    <main>
+        <section class="form-section">
+            <h2>Please add New Player</h2>
+       
+            <form id="playerForm">
+                <input type="text" id="playerName" placeholder="Player Name" required>
+                <input type="text" id="playerPosition" placeholder="Player Position" required>
+                <button type="submit">Add Player</button>
+            </form>
+        </section>
+        <section class="team-section">
+            <h2>Team List</h2>
+            <table id="teamTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="teamList">
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
